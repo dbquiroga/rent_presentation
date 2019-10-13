@@ -10,7 +10,7 @@ function DescriptionCard({ noCrown,
   longDescription, 
   titleStyle, 
   title = 'Buscamos alquiler amoblado. </br> 2 hab.', 
-  description = '¡Buscamos por la zona! Alquiler amoblado o semiamoblado.Departamento o casa. Presupuesto máximo: $19.000 + gastos.'
+  description = '¡Buscamos por Alto Alberdi!👋</br> Alquiler amoblado o semiamoblado. Departamento o casa.</br> Telefono de contacto: <a id="link-wsp"href="https://api.whatsapp.com/send?phone=+5493517542925&text=Te%20encontre%20desde%20tu%20pagina.%20tengo%20una%20opcion.">Escribi por wspp</a>'
 }) {
   return (
     <div className="card-container">
@@ -19,11 +19,11 @@ function DescriptionCard({ noCrown,
         <div className="horizontal-line" />
       }
       <h1 dangerouslySetInnerHTML={{__html: title}} className="title" style={titleStyle}></h1>
-      <p className={classnames('description', { 'description-long': longDescription })}>{description}</p>
+      <p dangerouslySetInnerHTML={{__html: description}} className={classnames('description', { 'description-long': longDescription })}></p>
       {
         !noButton &&
         <>
-        <h4 className="sub-title">Comentarios que nos dejaron:</h4>
+        <h4 className="sub-title">Comentarios sobre nosotros:</h4>
         <Button className="action-btn" type={'secondary'} size={'large'} onClick={() => navigate('/collections')}> Airbnb → </Button>
         <Button className="action-btn" type={'secondary'} size={'large'} onClick={() => navigate('/collections')}> Couchsurfing → </Button>
         </>
