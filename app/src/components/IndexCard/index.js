@@ -1,1 +1,1 @@
-export { default } from './IndexCard'
+export { default } from "./IndexCard"

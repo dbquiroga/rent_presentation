@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "@components/Header"
-import SideBar from '@components/SideBar';
+import SideBar from "@components/SideBar"
 import "./Layout.css"
 
 const Layout = ({ children }) => {
@@ -18,11 +18,11 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
-          menuLinks{
+          menuLinks {
             name
             link
           }
-          socialLinks{
+          socialLinks {
             name
             link
           }
@@ -33,20 +33,17 @@ const Layout = ({ children }) => {
 
   return (
     <div id="App">
-     
       <div
         id="page-wrap"
         style={{
           margin: `0 auto`,
           paddingTop: 0,
-          display: 'grid'
+          display: "grid",
         }}
       >
-       
         <main>{children}</main>
       </div>
     </div>
-
   )
 }
 

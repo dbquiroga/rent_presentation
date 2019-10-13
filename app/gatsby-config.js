@@ -79,7 +79,7 @@ module.exports = {
       options: {
         name: `landing_alquiler`,
         short_name: `starter`,
-        start_url: `/`,
+        start_url: `.`,
         background_color: `#D6F031`,
         theme_color: `#17A18D`,
         display: `minimal-ui`,

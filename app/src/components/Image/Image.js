@@ -1,8 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import classnames from 'classnames'
-import Img from 'gatsby-image'
-import './Image.css'
+import React from "react"
+import PropTypes from "prop-types"
+import classnames from "classnames"
+import Img from "gatsby-image"
+import "./Image.css"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -16,12 +16,13 @@ import './Image.css'
  */
 
 const Image = ({ withFrame, fluid }) => {
-
-  return <Img className={classnames({ 'img-frame': withFrame })} fluid={fluid} />
+  return (
+    <Img className={classnames({ "img-frame": withFrame })} fluid={fluid} />
+  )
 }
 
 Image.propTypes = {
-  withFrame: PropTypes.bool
+  withFrame: PropTypes.bool,
 }
 
 export default Image
