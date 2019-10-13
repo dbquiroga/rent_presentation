@@ -26,6 +26,11 @@
 
 .action-btn {
   margin-top: 5vw;
+  margin-right: 5px;
+}
+
+.action-btn:last-of-type {
+  margin-right: 0px;
 }
 
 

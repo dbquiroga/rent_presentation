@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         name: 'gmail',
-        link: 'mailto:chittorashobhit@gmail.com'
+        link: 'mailto:db.quiroga93@gmail.com'
       }
     ]
   },
@@ -77,11 +77,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-fashion-portfolio`,
+        name: `landing_alquiler`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#FFA726`,
+        background_color: `#D6F031`,
+        theme_color: `#17A18D`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
