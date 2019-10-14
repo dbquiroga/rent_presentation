@@ -2,17 +2,13 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Fashion Portfolio Starter`,
-    description: `Beautiful portfolio for your fashion career.`,
-    author: `@shobhitchittora`,
+    title: `Landing Alquiler`,
+    description: `Creando una landing con gatsby`,
+    author: `@dbquiroga`,
     menuLinks: [
       {
         name: 'Home',
         link: '/'
-      },
-      {
-        name: 'Collections',
-        link: '/collections'
       }
     ],
     socialLinks: [
